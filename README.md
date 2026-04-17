@@ -6,8 +6,10 @@ Reduces bandwidth by sending a SHA-256 hash of the query instead of the full que
 
 ## Installation
 
-```sh
-gleam add mochi_apq
+```toml
+# gleam.toml
+[dependencies]
+mochi_apq = { git = "https://github.com/qwexvf/mochi_apq", ref = "main" }
 ```
 
 ## Usage
@@ -17,7 +19,6 @@ import mochi_apq/persisted_queries
 
 let cache = persisted_queries.new()
 
-// On request
 persisted_queries.get(cache, hash)
 persisted_queries.store(cache, hash, query)
 ```
