@@ -1,4 +1,4 @@
-// mochi/persisted_queries.gleam
+// mochi_apq/persisted_queries.gleam
 // Automatic Persisted Queries (APQ) support
 // Allows clients to send query hashes instead of full query strings
 

@@ -1,4 +1,4 @@
-// Tests for mochi/persisted_queries.gleam - Automatic Persisted Queries (APQ)
+// Tests for mochi_apq/persisted_queries.gleam - Automatic Persisted Queries (APQ)
 import gleam/option.{None, Some}
 import gleeunit/should
 import mochi_apq/persisted_queries
